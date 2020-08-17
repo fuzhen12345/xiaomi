@@ -6,13 +6,8 @@
 
 <script>
 export default {
-  mounted(){
-    this.$axios.get('api/user/login').then(res=>{
-      console.log(res)
-    })
-  }
 }
 </script>
 <style>
-
+@import url('./assets/scss/reset.scss');
 </style>

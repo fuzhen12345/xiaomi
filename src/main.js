@@ -11,7 +11,7 @@ if(mock){
   require('./mock/api')
 }
 
-// axios.defaults.baseURL = '/api/';
+axios.defaults.baseURL = '/api/';
 axios.defaults.timeout = 8000
 axios.interceptors.response.use(function(response){
   let res = response.data
