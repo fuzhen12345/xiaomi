@@ -4,6 +4,15 @@
   </div>
 </template>
 
+<script>
+export default {
+  mounted(){
+    this.$axios.get('api/user/login').then(res=>{
+      console.log(res)
+    })
+  }
+}
+</script>
 <style>
 
 </style>

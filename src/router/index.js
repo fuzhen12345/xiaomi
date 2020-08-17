@@ -5,7 +5,7 @@ Vue.use(VueRouter)
 
 const routes = [
   {
-    path: '/',
+    path: '*',
     name: 'home',
     redirect: '/index',
     component: () => import('../pages/home.vue'),
